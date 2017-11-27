@@ -1,0 +1,6 @@
+nE = int(input())
+E = set(map(int, raw_input().split()))
+nF = int(input())
+F = set(map(int, raw_input().split()))
+ef = E.difference(F)
+print len(ef)

@@ -1,0 +1,6 @@
+nE = int(input())
+E = set(map(int, raw_input().split()))
+nF = int(input())
+F = set(map(int, raw_input().split()))
+EF = E.union(F)
+print (len(EF))
